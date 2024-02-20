@@ -24,6 +24,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import br.com.textokotlin.ui.theme.TextoKotlinTheme
+import br.com.textokotlin.ui.theme.incosolata
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -56,7 +57,8 @@ fun Greeting() {
             textAlign = TextAlign.Center,
             lineHeight = 40.sp,
             letterSpacing = 4.sp,
-            fontWeight = FontWeight.Bold
+            fontWeight = FontWeight.Bold,
+            fontFamily = incosolata
 
         )
 
